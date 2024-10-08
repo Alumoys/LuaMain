@@ -1,0 +1,7 @@
+local nome = "Livia"
+
+function reverso(nome)
+   return string.reverse(nome) -- Retorna o nome reverso
+end
+
+print("O nome ", nome, " na sua forma reversa fica ", reverso(nome))
